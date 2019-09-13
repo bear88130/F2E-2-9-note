@@ -1,1 +1,112 @@
 /* You can add global styles to this file, and also import other style files */
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+  font-size:14px;
+  font-family: 'Microsoft JhengHei';
+}
+
+.fs-1 {
+  font-size: 2.5rem;
+}
+
+.fs-2 {
+  font-size: 2rem;
+}
+
+.fs-3 {
+  font-size: 1.5rem;
+}
+
+.fs-4 {
+  font-size: 1.25rem;
+}
+
+.c-1 {
+  color:#2B3E62;
+}
+
+.c-2 {
+  color:#3F668D;
+}
+
+.tc-1 {
+  color: #7A7A7A;
+}
+
+.bgc-1 {
+  background-color: #FAFAFA;
+}
+
+.btn-blue {
+  background-color: #3F668D;
+  color: #fff;
+  border: 1px solid #3F668D;
+  outline: none;
+  width: 160px;
+  height: 50px;
+  border-radius: 15px;
+  &:hover {
+    opacity: .9;
+  }
+  &:active {
+    outline: none;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
+.search {
+  span {
+    border: none;
+  }
+  input {
+    border: none;
+    background-color: #e9ecef;
+    &:hover {
+      outline: none;
+    }
+    &:active {
+      outline: none;
+    }
+    &:focus {
+      outline: none;
+      background-color: #e9ecef;
+      border: none;
+      box-shadow: none;
+    }
+  }
+}
+
+.hv-100 {
+  height: 100vh;
+}
+
+.content {
+  overflow-y: scroll;
+}
+
+.toolbar {
+  border: 1px solid #e9ecef;
+  background-color: #FAFAFA;
+  padding-left: 0;
+}
+
+.pt-75 {
+  padding-top:.75rem;
+}
+
+.code {
+  border-left: 3px solid #e9ecef;
+}
+
+.vh-80 {
+  height: 80vh;
+}
+
+.vh-77 {
+  height: 77vh;
+}
